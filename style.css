@@ -92,8 +92,8 @@ body{
 .contact-btn{
     display: inline-block;
     padding: 12px 50px;
-    color: #170858;
-    border: 2px solid #170858;
+    color: #bacdd8;
+    border: 2px solid #336785;
     border-radius: 6px;
     margin-top: 16px;
     transition: .3s linear;
@@ -101,13 +101,21 @@ body{
 }
 
 .contact-btn:hover{
-    background-color: #170858;
+    background-color: #081085;
     color: #f2f2f2;
 }
 
 .card-footer{
     background: #f4f4f4;
-    padding: 60px 10px;
+    padding: 40px 10px;
+}
+
+.card-footer-title{
+    padding-bottom: 20px;
+    color: #2c3a47;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .numbers{
@@ -122,10 +130,15 @@ body{
     color: #170858;
 }
 
-.item span{
+.item a{
     display: block;
     color: #2c3a47;
-    font-size: 2rem;
+    font-size: 1.3rem;
+    transition: .3s linear;
+}
+
+.item a:hover{
+    color: #2621709a;
 }
 
 .border{
